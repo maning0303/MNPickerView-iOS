@@ -15,6 +15,10 @@
 		E0CDDA091F3020CF0067C275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CDDA071F3020CF0067C275 /* LaunchScreen.storyboard */; };
 		E0CDDA201F3031F80067C275 /* MNDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CDDA1C1F3031F80067C275 /* MNDatePickerView.m */; };
 		E0CDDA211F3031F80067C275 /* MNPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CDDA1E1F3031F80067C275 /* MNPickerView.m */; };
+		E0CDDA271F30588E0067C275 /* mn_picker_screenshot_001.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E0CDDA231F30588E0067C275 /* mn_picker_screenshot_001.PNG */; };
+		E0CDDA281F30588E0067C275 /* mn_picker_screenshot_002.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E0CDDA241F30588E0067C275 /* mn_picker_screenshot_002.PNG */; };
+		E0CDDA291F30588E0067C275 /* mn_picker_screenshot_003.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E0CDDA251F30588E0067C275 /* mn_picker_screenshot_003.PNG */; };
+		E0CDDA2A1F30588E0067C275 /* mn_picker_screenshot_004.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E0CDDA261F30588E0067C275 /* mn_picker_screenshot_004.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		E0CDDA1D1F3031F80067C275 /* MNPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPickerView.h; sourceTree = "<group>"; };
 		E0CDDA1E1F3031F80067C275 /* MNPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNPickerView.m; sourceTree = "<group>"; };
 		E0CDDA1F1F3031F80067C275 /* MNPickerViewMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPickerViewMacros.h; sourceTree = "<group>"; };
+		E0CDDA231F30588E0067C275 /* mn_picker_screenshot_001.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mn_picker_screenshot_001.PNG; sourceTree = "<group>"; };
+		E0CDDA241F30588E0067C275 /* mn_picker_screenshot_002.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mn_picker_screenshot_002.PNG; sourceTree = "<group>"; };
+		E0CDDA251F30588E0067C275 /* mn_picker_screenshot_003.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mn_picker_screenshot_003.PNG; sourceTree = "<group>"; };
+		E0CDDA261F30588E0067C275 /* mn_picker_screenshot_004.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mn_picker_screenshot_004.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 		E0CDD9ED1F3020CF0067C275 = {
 			isa = PBXGroup;
 			children = (
+				E0CDDA221F30588E0067C275 /* ScreenShot */,
 				E0CDD9F81F3020CF0067C275 /* MNPickerView */,
 				E0CDD9F71F3020CF0067C275 /* Products */,
 			);
@@ -97,6 +106,17 @@
 				E0CDDA1F1F3031F80067C275 /* MNPickerViewMacros.h */,
 			);
 			path = MNPickerView;
+			sourceTree = "<group>";
+		};
+		E0CDDA221F30588E0067C275 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				E0CDDA231F30588E0067C275 /* mn_picker_screenshot_001.PNG */,
+				E0CDDA241F30588E0067C275 /* mn_picker_screenshot_002.PNG */,
+				E0CDDA251F30588E0067C275 /* mn_picker_screenshot_003.PNG */,
+				E0CDDA261F30588E0067C275 /* mn_picker_screenshot_004.PNG */,
+			);
+			path = ScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CDDA291F30588E0067C275 /* mn_picker_screenshot_003.PNG in Resources */,
+				E0CDDA271F30588E0067C275 /* mn_picker_screenshot_001.PNG in Resources */,
 				E0CDDA091F3020CF0067C275 /* LaunchScreen.storyboard in Resources */,
+				E0CDDA2A1F30588E0067C275 /* mn_picker_screenshot_004.PNG in Resources */,
 				E0CDDA061F3020CF0067C275 /* Assets.xcassets in Resources */,
+				E0CDDA281F30588E0067C275 /* mn_picker_screenshot_002.PNG in Resources */,
 				E0CDDA041F3020CF0067C275 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +358,7 @@
 				E0CDDA0F1F3020CF0067C275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
